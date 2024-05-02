@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-axios.defaults.baseURL = "http://localhost:5036";
+axios.defaults.baseURL = "https://todolist-hmn3.onrender.com/";
 
 axios.interceptors.response.use(
   response => response,
